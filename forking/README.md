@@ -16,7 +16,7 @@ Notice that there are now two version of this repo, one at
 Say I make an update to this repository, now when we go to the fork it will show
 that it is one commit behind: 
 
-![out-of-date](images/out-of-date)
+![out-of-date](images/out-of-date.png)
 
 by clicking the ``sync fork`` button I have the options to compare (check
 my fork against the one we are keeping under the lab organization) and
@@ -25,4 +25,4 @@ eventually update the fork to match the original code.
 Once that's done, the same page will now show we are up to date with the
 original code, and that update will be reflected in the new code. 
 
-![up-to-date](images/up-to-date)
+![up-to-date](images/up-to-date.png)
