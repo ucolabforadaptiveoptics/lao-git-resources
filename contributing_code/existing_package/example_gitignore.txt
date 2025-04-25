@@ -1,0 +1,14 @@
+# plots 
+*.png
+*.gif
+# data files
+*.fits
+*.npy
+# computer generated chaos
+*.sw*
+.DS_store
+__pycache__
+# other people's code 
+Make_Keck_DiffLimPSF.py
+make_keck_aperture.py
+nirc2strehl_mod.py
