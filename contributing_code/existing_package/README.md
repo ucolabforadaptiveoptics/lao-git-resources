@@ -6,18 +6,18 @@ been working through some of the ORKID data reduction. It includes code I've
 written, scripts from other people I've been using, some data files, and some
 plots. It looks like this: 
 
-[ls-from-orkid](images/ls-from-orkid.png)
+![ls-from-orkid](images/ls-from-orkid.png)
 
 Since I know my intention is to make this into a respositry on GitHub I will
 start by making it an empty repository on the GitHub side. Navigate to the
 repositories tab and click new. (You can do this from
 your own user or from the LAO account.) 
 
-[making-a-repo](images/making-a-repo.png)
+![making-a-repo](images/making-a-repo.png)
 
 Choose private or public and make sure you *don't* initialize it with a README. 
 
-[repo-options](images/repo-options.png)
+![repo-options](images/repo-options.png)
 
 You'll notice that now this repository has instructions on how to connect your
 local code. What follows is a slightly more detailed version of those
@@ -34,9 +34,11 @@ generally not advised to version control things like plots other than for
 important demos or documentation, things like ``__pycache__``, ``.swp`` files,
 and other misc files your computer might make you, and *especially* not large
 data files. Large data files will often clog up your repository and are a pain
-to remove from your commit history. 
+to remove from your commit history. (As a note, just enough screenshots/examples
+to build these tutorials has already made this repo a little chonky and
+unwieldy.) 
 
-[status-after-init](images/status-after-init.png)
+![status-after-init](images/status-after-init.png)
 
 The simple solution is to make a
 `.gitignore`, a little set of instructions of what not to commit. I've included
@@ -54,7 +56,7 @@ wildcards)
 In my case, because I included some ``.py`` files in my ``.gitnore`` git is
 kindly making sure I'm okay ignoring these. 
 
-[status-after-add](images/status-after-add.png)
+![status-after-add](images/status-after-add.png)
 
 Now I'm just following the instructions that are up on my blank repository (note
 that you don't need the echo/add step, that's just creating blank content) to
@@ -71,4 +73,4 @@ git push -u origin main
 Now when I go to that same blank repository I can see these python files, as
 well as the ``.gitignore``. 
 
-[new-repo-who-dis](images/new-content-in-repo.png)
+![new-repo-who-dis](images/new-content-in-repo.png)
