@@ -25,8 +25,10 @@ Now I can copy or move my snippet into the repo. (I tested it to make sure it
 runs as I expect to make sure I'm not committing broken code.) And I can add and
 commit it to the repository. 
 
->> git add orkid\_simulation\_hcipy.py
->> git commit -m "Adding an orkid simulation through hcipy."
+```python
+git add orkid\_simulation\_hcipy.py
+git commit -m "Adding an orkid simulation through hcipy."
+```
 
 Finally, I can push this back to the repo, because of the branch workflow I will
 need to specify the branch. 
