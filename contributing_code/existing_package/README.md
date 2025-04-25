@@ -51,7 +51,7 @@ them as if I did.
 Finally, I add the files of note (you can do this by naming each file or with
 wildcards) 
 
->> git add *.py* 
+>> git add \*.py
 
 In my case, because I included some ``.py`` files in my ``.gitnore`` git is
 kindly making sure I'm okay ignoring these. 
